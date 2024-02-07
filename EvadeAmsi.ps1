@@ -1,8 +1,8 @@
 ########################################################
 #
 # A script that patches AMSI for the running process 
-# Author: yanal abuseini
-# [LINK]
+# Author: Yanal Abuseini
+# https://github.com/yanalabuseini/EvadeAMSI
 #
 ########################################################
 
