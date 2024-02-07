@@ -3,7 +3,7 @@ A manually obfuscated PowerShell script for quick use that bypasses AMSI (Anti-M
 
 Forcing the AMSI initialization to fail (amsiInitFailed) will result that no scan will be initiated for the current process. Originally this was disclosed by <a href="https://twitter.com/mattifestation">Matt Graeber</a> and Microsoft has developed a signature to prevent wider usage. But a simple obfuscation can bypass that signature.
 
-<br></br>
+To run the script, simply import the module then run 'EvadeAmsi'
 
 ## POC for Bypassing AMSI then Importing PowerView
  <strong>
