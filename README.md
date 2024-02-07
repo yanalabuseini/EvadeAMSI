@@ -6,17 +6,17 @@ Forcing the AMSI initialization to fail (amsiInitFailed) will result that no sca
 <br></br>
 
 ## POC for Bypassing AMSI then Importing PowerView
-<p align="center"> <strong>
+ <strong>
  Regular import:
  </strong>:
-<p align="center">
+
 <img src="https://github.com/yanalabuseini/EvadeAMSI/blob/main/Screenshots/Before.png">
  </p>
  
-<p align="center"> <strong>
+<strong>
  After bypassing AMSI:
  </strong>:
-<p align="center">
+
 <img src="https://github.com/yanalabuseini/EvadeAMSI/blob/main/Screenshots/After.png">
  </p>
 
