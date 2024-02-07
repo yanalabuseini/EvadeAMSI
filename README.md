@@ -1,9 +1,9 @@
 # EvadeAmsi
-A manually obfuscated PowerShell script for quick use that patches AMSI (Anti-Malware Scan Interface) for the current process
+A manually obfuscated PowerShell script for quick use that patches AMSI (Anti-Malware Scan Interface) for the current process.
 
 Forcing the AMSI initialization to fail (amsiInitFailed) will result that no scan will be initiated for the current process. Originally this was disclosed <a href="https://twitter.com/mattifestation">Matt Graeber</a> and Microsoft has developed a signature to prevent wider usage. But a simple obfuscation can bypass that signature.
 
-
+<br></br>
 
 ## POC for Bypassing AMSI then Importing PowerView
 <p align="center"> <strong>
@@ -20,7 +20,7 @@ Forcing the AMSI initialization to fail (amsiInitFailed) will result that no sca
 <img src="https://github.com/yanalabuseini/EvadeAMSI/blob/main/Screenshots/After.png">
  </p>
 
-
+<br></br>
 
 ## Contact
 
